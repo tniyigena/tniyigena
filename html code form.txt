@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+<body>
+    <h1>BOARDING SCHOOL REQUEST FORM</h1>
+    <form action="a.php" method="post">
+            <p><label for="student_id">STUDENT ID:</label>
+            <input type="text"></p>
+            <label for="first_name">FIRST NAME:</label>
+            <input type="text">
+
+            <p><label for="last_name">LAST NAME:</label>
+            <input type="text"></p>
+       
+            <p><label for="age">AGE:</label>
+            <input type="number"></p>
+  
+            
+             <select id="sex" name="sex">
+                   <option value="">select sex</option>
+                   <option value ="M">MALE</option>
+                   <option value ="F">FEMALE</option>
+        </select>
+        
+            <p><label for="province">PROVINCE:</label>
+            <input type="text"></p>
+   
+             <p><label for="district">DISTRICT:</label>
+            <input type="text"></p>
+        
+            <p><label for="sector">SECTOR:</label>
+            <input type="text"></p>
+        
+            <p><label for="marks">MARKS:</label>
+            <input type="text"></p>
+            <p><label for="school_a">SCHOOL A:</label>
+            <input type="text"></p>
+        
+            <p><label for="school_b">SCHOOL B:</label>
+            <input type="text"></p>
+        
+            <p><label for="class">CLASS:</label>
+            <select ="class" name="class" required>
+                <option value="">Select Class</option>
+                <option value="P1">P1</option>
+                <option value="P2">P2</option>
+                <option value="P3">P3</option>
+                <option value="P4">P4</option>
+                <option value="P5">P5</option>
+                <option value="P6">P6</option>
+                <option value="S1">S1</option>						
+                <option value="S2">S2</option>
+                <option value="S3">S3</option>
+                <option value="S4">S4</option>
+                <option value="S5">S5</option>
+                <option value="S6">S6</option>
+</p>
+            </select>
+          <p><label for=" ">DATE</label>
+         <input type="date"></p>
+         <p>TIME:<input type="time"></p>
+           <p> <label for="photo">PHOTO:</label>
+            <input type="file"></p>
+        
+           <p><input type="submit" value="SEND"></p>
+    </form>
+</body>
+</html>
